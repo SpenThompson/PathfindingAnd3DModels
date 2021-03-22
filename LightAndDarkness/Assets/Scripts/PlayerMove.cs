@@ -38,5 +38,11 @@ public class PlayerMove : MonoBehaviour
         }
 
         body.velocity = new Vector3(horizontal * moveSpeed, 0, vertical * moveSpeed);
+        Rotate();
+    }
+
+    private void Rotate()
+    {
+        body.MoveRotation(Quaternion.LookRotation(body.velocity));
     }
 }
