@@ -10,7 +10,7 @@ public class PlayerMove : MonoBehaviour
     float vertical;
     float horizontal;
     float moveSpeed = 5f;
-    float moveLimiter = 0.5f;
+    float moveLimiter = 0.7f;
 
     // Start is called before the first frame update
     void Start()
@@ -38,7 +38,7 @@ public class PlayerMove : MonoBehaviour
         }
 
         body.velocity = new Vector3(horizontal * moveSpeed, 0, vertical * moveSpeed);
-        Rotate();
+        if (horizontal != 0 || vertical != 0) Rotate();
     }
 
     private void Rotate()
