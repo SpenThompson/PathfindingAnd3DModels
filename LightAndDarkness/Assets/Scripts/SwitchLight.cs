@@ -9,22 +9,24 @@ public class SwitchLight : MonoBehaviour
     public GameObject shadow;
     private Light l;
     private NavMeshObstacle s;
+    private bool keyPressed;
     // Start is called before the first frame update
     void Start()
     {
         l = light.GetComponent<Light>();
         s = shadow.GetComponent<NavMeshObstacle>();
+        keyPressed = false;
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        keyPressed = Input.GetKeyDown("e");
     }
 
-    private void OnCollisionEnter(Collision collision)
+    private void OnTriggerStay(Collider collision)
     {
-        if(collision.gameObject.name == "Player" && Input.GetKey("e"))
+        if(collision.gameObject.name == "Player" && keyPressed)
         {
             switchLight();
         }
@@ -34,5 +36,6 @@ public class SwitchLight : MonoBehaviour
     {
         l.enabled = !l.enabled;
         s.enabled = !s.enabled;
+        Debug.Log("nice");
     }
 }
