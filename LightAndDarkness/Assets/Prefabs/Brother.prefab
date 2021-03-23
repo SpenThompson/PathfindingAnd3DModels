@@ -1903,6 +1903,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   goal: {fileID: 0}
   speed: 0
+  animator: {fileID: 0}
 --- !u!195 &2404884932864638164
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -1939,7 +1940,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 116
   m_CollisionDetection: 0
 --- !u!1 &8103149127345974504
 GameObject:
