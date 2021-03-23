@@ -6,6 +6,18 @@ ModelImporter:
   - first:
       74: -623603649343465320
     second: Scene
+  - first:
+      74: 1989289236423521904
+    second: Default Take
+  - first:
+      74: 6731207601017578669
+    second: pose
+  - first:
+      74: 6804923900843967498
+    second: press
+  - first:
+      74: -2164989337461475280
+    second: press-fast
   externalObjects: {}
   materials:
     materialImportMode: 2

@@ -159,8 +159,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 550, y: 320}
-  m_SizeDelta: {x: 360, y: 68}
+  m_AnchoredPosition: {x: -250, y: 173}
+  m_SizeDelta: {x: 205.0975, y: 47.9322}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &18640594
 MonoBehaviour:
@@ -219,11 +219,11 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 0}
   m_FillRect: {fileID: 336830049}
   m_HandleRect: {fileID: 0}
-  m_Direction: 1
+  m_Direction: 0
   m_MinValue: 0
   m_MaxValue: 1
   m_WholeNumbers: 0
-  m_Value: 0
+  m_Value: 1
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -403,7 +403,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: -0.06500244, y: 0}
+  m_AnchoredPosition: {x: 0.06500244, y: 0}
   m_SizeDelta: {x: -10.5752, y: -8.9212}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &336830050
@@ -505,7 +505,7 @@ GameObject:
   - component: {fileID: 538738885}
   - component: {fileID: 538738884}
   m_Layer: 5
-  m_Name: Fear Gauge Border Placeholder
+  m_Name: Fear Gauge Border
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -518,7 +518,7 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 538738882}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -527,7 +527,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0.00015258789, y: -0.00005340576}
+  m_AnchoredPosition: {x: -0.00015258789, y: -0.00005340576}
   m_SizeDelta: {x: -0.5827942, y: -0.270401}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &538738884
@@ -550,7 +550,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 5b7f0ee06813e5e4a8dad4ef97b688f8, type: 3}
+  m_Sprite: {fileID: 21300000, guid: e2676a2f676480d468714c9bd5104190, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
