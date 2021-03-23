@@ -15,8 +15,8 @@ public class FlashlightMouse : MonoBehaviour
 
     private void FixedUpdate()
     {
-        pos.x += horizontal;
-        pos.z += vertical;
+        pos.x += vertical;
+        pos.z += horizontal;
     }
     // Update is called once per frame
     void Update()
