@@ -6,8 +6,8 @@ using UnityEngine.AI;
 public class SwitchLight : MonoBehaviour
 {
     public GameObject[] lightFixtures;
-    private Light[] l;
-    private NavMeshObstacle[] s;
+    public Light[] l;
+    public NavMeshObstacle[] s;
     private bool keyPressed;
     // Start is called before the first frame update
     void Start()
