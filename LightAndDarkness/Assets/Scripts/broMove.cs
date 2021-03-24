@@ -10,7 +10,7 @@ public class broMove : MonoBehaviour
     private NavMeshAgent agent;
     private Rigidbody rb;
 
-    public Animator animator;
+    private Animator animator;
     // Start is called before the first frame update
     void Start()
     {
