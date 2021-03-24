@@ -7,10 +7,10 @@ public class broMove : MonoBehaviour
 {
     public Transform goal;
     public float speed;
+
     private NavMeshAgent agent;
     private Rigidbody rb;
-
-    public Animator animator;
+    private Animator animator;
     // Start is called before the first frame update
     void Start()
     {
