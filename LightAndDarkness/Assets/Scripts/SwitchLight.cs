@@ -12,6 +12,9 @@ public class SwitchLight : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+
+        l = new Light[lightFixtures.Length];
+        s = new NavMeshObstacle[lightFixtures.Length];
         for (int n = 0; n < lightFixtures.Length; n++) 
         {
             l[n] = lightFixtures[n].GetComponentsInChildren<Light>()[0];
