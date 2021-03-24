@@ -6,13 +6,16 @@ using UnityEngine.AI;
 public class SwitchLight : MonoBehaviour
 {
     public GameObject lightFixture;
+    public GameObject otherLight;
     private Light l;
+    private Light l1;
     private NavMeshObstacle s;
     private bool keyPressed;
     // Start is called before the first frame update
     void Start()
     {
         l = lightFixture.GetComponentsInChildren<Light>()[0];
+        l1 = otherLight.GetComponentsInChildren<Light>()[0];
         s = lightFixture.GetComponentsInChildren<NavMeshObstacle>()[0];
         keyPressed = false;
     }
@@ -34,6 +37,7 @@ public class SwitchLight : MonoBehaviour
     public void switchLight()
     {
         l.enabled = !l.enabled;
+        l1.enabled = !l1.enabled;
         s.enabled = !s.enabled;
     }
 }

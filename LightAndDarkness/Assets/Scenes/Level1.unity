@@ -286,6 +286,10 @@ PrefabInstance:
       value: Button
       objectReference: {fileID: 0}
     - target: {fileID: 2633847402498754211, guid: 996b3112e9aa6ca4aa23ee343b2df98a, type: 3}
+      propertyPath: otherLight
+      value: 
+      objectReference: {fileID: 249163323}
+    - target: {fileID: 2633847402498754211, guid: 996b3112e9aa6ca4aa23ee343b2df98a, type: 3}
       propertyPath: lightFixture
       value: 
       objectReference: {fileID: 88270241}
@@ -335,6 +339,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 996b3112e9aa6ca4aa23ee343b2df98a, type: 3}
+--- !u!1 &249163323 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1780322480670020053, guid: 2c97ce75a5c7b3443899334669793497, type: 3}
+  m_PrefabInstance: {fileID: 1716627040}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &271952600
 PrefabInstance:
   m_ObjectHideFlags: 0
