@@ -6,8 +6,8 @@ using UnityEngine.AI;
 public class SwitchLight : MonoBehaviour
 {
     public GameObject[] lightFixtures;
-    private Light[] l;
-    private NavMeshObstacle[] s;
+    public Light[] l;
+    public NavMeshObstacle[] s;
     private bool keyPressed;
     // Start is called before the first frame update
     void Start()
@@ -23,7 +23,7 @@ public class SwitchLight : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        keyPressed = Input.GetKeyDown("E");
+        keyPressed = Input.GetKeyDown("e");
     }
 
     private void OnTriggerStay(Collider collision)

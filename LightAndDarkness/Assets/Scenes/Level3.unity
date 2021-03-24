@@ -367,6 +367,14 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8788798488967396487, guid: 996b3112e9aa6ca4aa23ee343b2df98a, type: 3}
+      propertyPath: l.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8788798488967396487, guid: 996b3112e9aa6ca4aa23ee343b2df98a, type: 3}
+      propertyPath: s.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8788798488967396487, guid: 996b3112e9aa6ca4aa23ee343b2df98a, type: 3}
       propertyPath: lightFixtures.Array.size
       value: 2
       objectReference: {fileID: 0}
@@ -666,6 +674,14 @@ PrefabInstance:
     - target: {fileID: 5770562412491585495, guid: 996b3112e9aa6ca4aa23ee343b2df98a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8788798488967396487, guid: 996b3112e9aa6ca4aa23ee343b2df98a, type: 3}
+      propertyPath: l.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8788798488967396487, guid: 996b3112e9aa6ca4aa23ee343b2df98a, type: 3}
+      propertyPath: s.Array.size
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8788798488967396487, guid: 996b3112e9aa6ca4aa23ee343b2df98a, type: 3}
       propertyPath: lightFixtures.Array.size
@@ -1445,6 +1461,14 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8788798488967396487, guid: 996b3112e9aa6ca4aa23ee343b2df98a, type: 3}
+      propertyPath: l.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8788798488967396487, guid: 996b3112e9aa6ca4aa23ee343b2df98a, type: 3}
+      propertyPath: s.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8788798488967396487, guid: 996b3112e9aa6ca4aa23ee343b2df98a, type: 3}
       propertyPath: lightFixtures.Array.size
       value: 1
       objectReference: {fileID: 0}
@@ -1853,6 +1877,14 @@ PrefabInstance:
     - target: {fileID: 5770562412491585495, guid: 996b3112e9aa6ca4aa23ee343b2df98a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8788798488967396487, guid: 996b3112e9aa6ca4aa23ee343b2df98a, type: 3}
+      propertyPath: l.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8788798488967396487, guid: 996b3112e9aa6ca4aa23ee343b2df98a, type: 3}
+      propertyPath: s.Array.size
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 8788798488967396487, guid: 996b3112e9aa6ca4aa23ee343b2df98a, type: 3}
       propertyPath: lightFixtures.Array.size
