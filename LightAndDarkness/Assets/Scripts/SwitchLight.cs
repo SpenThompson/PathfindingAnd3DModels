@@ -23,7 +23,7 @@ public class SwitchLight : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        keyPressed = Input.GetKeyDown("e");
+        keyPressed = Input.GetKeyDown("E");
     }
 
     private void OnTriggerStay(Collider collision)
