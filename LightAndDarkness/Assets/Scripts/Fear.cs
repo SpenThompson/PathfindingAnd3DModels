@@ -37,8 +37,8 @@ public class Fear : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (inDark) DamagePlayer(1);
         GameOverCheck();
+        if (inDark) DamagePlayer(1);
     }
 
     void GameOverCheck()
