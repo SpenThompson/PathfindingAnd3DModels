@@ -28,6 +28,7 @@ public class GameManager : MonoBehaviour
         StartCoroutine(LoadYourAsyncScene(s));
         if (s == "Congrats")
         {
+            StopAllCoroutines();
             StartBackground.SetActive(true);
             congrats.SetActive(true);
         }
@@ -117,8 +118,12 @@ public class GameManager : MonoBehaviour
 
     IEnumerator TypeText(string text)
     {
-        dialogText.GetComponent<TextMeshProUGUI>().text = text;
-        yield return new WaitForSeconds(0.01f);
+        dialogText.GetComponent<TextMeshProUGUI>().text = "";
+        foreach (char c in text.ToCharArray())
+        {
+            dialogText.GetComponent<TextMeshProUGUI>().text += c;
+            yield return new WaitForSeconds(0.1f);
+        }
     }
 
     public void GameOver()
