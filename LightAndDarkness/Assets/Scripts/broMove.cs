@@ -5,8 +5,9 @@ using UnityEngine.AI;
 
 public class broMove : MonoBehaviour
 {
-    public Transform goal;
+    public Transform goal, end;
     public float speed, offsetx, offsetz;
+    public string SceneName;
     private NavMeshAgent agent;
     private Rigidbody rb;
     private Animator animator;
@@ -35,5 +36,13 @@ public class broMove : MonoBehaviour
     void Update()
     {
         animator.SetFloat("speed", speed);
+    }
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        if(collision.gameObject.name == "Goal")
+        {
+            GameManager.Instance.loadScene(SceneName);
+        }
     }
 }

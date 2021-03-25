@@ -22,6 +22,11 @@ public class GameManager : MonoBehaviour
         get; private set;
     }
 
+    public void loadScene(string s)
+    {
+        StartCoroutine(LoadYourAsyncScene(s));
+    }
+
     void Start()
     {
 
