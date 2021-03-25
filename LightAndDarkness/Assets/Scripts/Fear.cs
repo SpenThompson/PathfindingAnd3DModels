@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class Fear : MonoBehaviour
 {
-    public int currentFear= 0;
-    public int maxFear = 100;
+    public int currentFear;
+    public int maxFear = 1200; // 1200 gives you 20 seconds in the dark at 60FPS
     private bool inDark;
 
     public FearGauge fearGauge;
@@ -38,6 +38,12 @@ public class Fear : MonoBehaviour
     void Update()
     {
         if (inDark) DamagePlayer(1);
+        GameOverCheck();
+    }
+
+    void GameOverCheck()
+    {
+        if (currentFear <= 0) GameManager.Instance.GameOver();
     }
 
     public void DamagePlayer(int damage)
