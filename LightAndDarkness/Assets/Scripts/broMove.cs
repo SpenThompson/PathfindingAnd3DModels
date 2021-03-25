@@ -5,7 +5,7 @@ using UnityEngine.AI;
 
 public class broMove : MonoBehaviour
 {
-    public Transform goal, end;
+    public Transform goal;
     public float speed, offsetx, offsetz;
     public string SceneName;
     private NavMeshAgent agent;
