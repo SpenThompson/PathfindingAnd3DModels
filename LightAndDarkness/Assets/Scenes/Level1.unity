@@ -709,6 +709,10 @@ PrefabInstance:
       propertyPath: speed
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 271179549736156502, guid: cf384905b60aafe478ca33eed19a49ce, type: 3}
+      propertyPath: SceneName
+      value: Level2
+      objectReference: {fileID: 0}
     - target: {fileID: 6568808038531158720, guid: cf384905b60aafe478ca33eed19a49ce, type: 3}
       propertyPath: m_RootOrder
       value: 1
