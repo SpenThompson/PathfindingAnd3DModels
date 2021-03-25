@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657826, g: 0.49641263, b: 0.57481676, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1204,6 +1204,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e131c53d18cf6494ebd1d65899321631, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  title: {fileID: 2054133834}
   dialogBox: {fileID: 275363655}
   dialogText: {fileID: 1517440375}
   startButton: {fileID: 916865761}
@@ -1486,7 +1487,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 108}
+  m_AnchoredPosition: {x: 0, y: 90}
   m_SizeDelta: {x: 445.3381, y: 114.2007}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2054133836
@@ -1509,7 +1510,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Placeholder
+  m_text: "Scared of \nthe Dark"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 0fb30557d44b9a24c837e77906cae357, type: 2}
   m_sharedMaterial: {fileID: -8989216484673775021, guid: 0fb30557d44b9a24c837e77906cae357, type: 2}
@@ -1536,8 +1537,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 72
-  m_fontSizeBase: 72
+  m_fontSize: 64
+  m_fontSizeBase: 64
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18

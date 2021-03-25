@@ -7,7 +7,7 @@ using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour
 {
-    public GameObject titleText;
+    public GameObject title;
     public GameObject dialogBox;
     public GameObject dialogText;
     private Coroutine dialogCoroutine;
@@ -61,7 +61,7 @@ public class GameManager : MonoBehaviour
     public void StartButton()
     {
         startButton.SetActive(false);
-        titleText.SetActive(false);
+        title.SetActive(false);
         //StartCoroutine(LoadYourAsyncScene("Tutorial"));
         loadScene("Tutorial");
     }
