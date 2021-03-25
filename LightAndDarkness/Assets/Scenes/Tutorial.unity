@@ -2199,12 +2199,24 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 271179549736156502, guid: cf384905b60aafe478ca33eed19a49ce, type: 3}
+      propertyPath: end
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 271179549736156502, guid: cf384905b60aafe478ca33eed19a49ce, type: 3}
       propertyPath: goal
       value: 
       objectReference: {fileID: 477488401}
     - target: {fileID: 271179549736156502, guid: cf384905b60aafe478ca33eed19a49ce, type: 3}
       propertyPath: speed
       value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 271179549736156502, guid: cf384905b60aafe478ca33eed19a49ce, type: 3}
+      propertyPath: offsetx
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 271179549736156502, guid: cf384905b60aafe478ca33eed19a49ce, type: 3}
+      propertyPath: offsetz
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: 271179549736156502, guid: cf384905b60aafe478ca33eed19a49ce, type: 3}
       propertyPath: SceneName
