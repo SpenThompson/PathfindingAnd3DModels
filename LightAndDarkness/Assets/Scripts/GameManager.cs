@@ -16,6 +16,7 @@ public class GameManager : MonoBehaviour
     public GameObject StartBackground;
     public GameObject canvas;
     public GameObject events;
+    public GameObject congrats;
 
     public static GameManager Instance
     {
@@ -25,14 +26,13 @@ public class GameManager : MonoBehaviour
     public void loadScene(string s)
     {
         StartCoroutine(LoadYourAsyncScene(s));
+        if (s == "Congrats")
+        {
+            StartBackground.SetActive(true);
+            congrats.SetActive(true);
+        }
     }
-
-    void Start()
-    {
-
-    }
-
-
+     
     void Update()
     {
 
@@ -128,4 +128,8 @@ public class GameManager : MonoBehaviour
         StartCoroutine(ColorLerp(new Color(1, 1, 1, 1), 1f));
     }
 
+    public void GameWin()
+    {
+
+    }
 }
