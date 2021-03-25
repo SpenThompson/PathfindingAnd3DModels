@@ -274,7 +274,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &275363656
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1211,6 +1211,7 @@ MonoBehaviour:
   StartBackground: {fileID: 280771250}
   canvas: {fileID: 536443449}
   events: {fileID: 448768055}
+  congrats: {fileID: 399143367}
 --- !u!4 &1538764934
 Transform:
   m_ObjectHideFlags: 0

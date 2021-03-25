@@ -127,9 +127,4 @@ public class GameManager : MonoBehaviour
         StopAllCoroutines();
         StartCoroutine(ColorLerp(new Color(1, 1, 1, 1), 1f));
     }
-
-    public void GameWin()
-    {
-
-    }
 }
