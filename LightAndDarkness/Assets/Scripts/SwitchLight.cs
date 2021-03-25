@@ -8,6 +8,7 @@ public class SwitchLight : MonoBehaviour
     public GameObject[] lightFixtures;
     public Light[] l;
     public NavMeshObstacle[] s;
+    public CapsuleCollider[] c;
     private bool keyPressed;
     // Start is called before the first frame update
     void Start()
@@ -15,10 +16,12 @@ public class SwitchLight : MonoBehaviour
 
         l = new Light[lightFixtures.Length];
         s = new NavMeshObstacle[lightFixtures.Length];
+        c = new CapsuleCollider[lightFixtures.Length];
         for (int n = 0; n < lightFixtures.Length; n++) 
         {
             l[n] = lightFixtures[n].GetComponentsInChildren<Light>()[0];
             s[n] = lightFixtures[n].GetComponentsInChildren<NavMeshObstacle>()[0];
+            c[n] = lightFixtures[n].GetComponentsInChildren<CapsuleCollider>()[0];
         }
         keyPressed = false;
     }
@@ -43,6 +46,7 @@ public class SwitchLight : MonoBehaviour
         {
             l[i].enabled = !l[i].enabled;
             s[i].enabled = !s[i].enabled;
+            c[i].enabled = !c[i].enabled;
         }
     }
 }
