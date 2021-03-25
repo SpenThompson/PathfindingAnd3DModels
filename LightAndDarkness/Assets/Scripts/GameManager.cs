@@ -61,7 +61,8 @@ public class GameManager : MonoBehaviour
     public void StartButton()
     {
         startButton.SetActive(false);
-        StartCoroutine(LoadYourAsyncScene("Tutorial"));
+        //StartCoroutine(LoadYourAsyncScene("Tutorial"));
+        loadScene("Tutorial");
     }
 
     public void CreditsButton()
