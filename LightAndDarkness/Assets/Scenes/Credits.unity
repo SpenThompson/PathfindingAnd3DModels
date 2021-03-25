@@ -604,7 +604,8 @@ MonoBehaviour:
     Art Tower on Pixaby.com\nCredits Background:                                           
     Pieter Jansz on commons.wikimedia.com\nPlayer Model                                                                        
     Placeholder\nBrother Model                                                                    
-    Placeholder\nButton Model \t\t\t\tmess110 at Open Game Art\n"
+    Placeholder\nButton Model \t\t\t\tmess110 at Open Game Art\nArmchair\t\t\t\t\tbobjh
+    at Open Game Art"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 579f4e09916b9f1429402db39ab0cc01, type: 2}
   m_sharedMaterial: {fileID: 575365024105378999, guid: 579f4e09916b9f1429402db39ab0cc01, type: 2}
