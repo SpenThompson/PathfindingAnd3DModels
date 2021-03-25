@@ -6,8 +6,7 @@ using UnityEngine.AI;
 public class broMove : MonoBehaviour
 {
     public Transform goal;
-    public float speed;
-
+    public float speed, offsetx, offsetz;
     private NavMeshAgent agent;
     private Rigidbody rb;
     private Animator animator;
@@ -18,12 +17,13 @@ public class broMove : MonoBehaviour
         rb = GetComponent<Rigidbody>();
         agent.updatePosition = false;
         agent.updateRotation = false;
-        this.agent.SetDestination(goal.position);
+        
         animator = gameObject.GetComponent<Animator>();
     }
 
     private void FixedUpdate()
     {
+        this.agent.SetDestination(new Vector3(goal.position.x + offsetx, goal.position.y, goal.position.z + offsetz));
         rb.velocity = agent.velocity;
         speed = rb.velocity.magnitude;
         if (speed > 0) rb.MoveRotation(Quaternion.LookRotation(rb.velocity));
