@@ -10,7 +10,7 @@ public class Fear : MonoBehaviour
 
     public FearGauge fearGauge;
 
-    void OnTriggerEnter(Collider collider)
+    void OnTriggerStay(Collider collider)
     {
         if (collider.CompareTag("Shadow"))
         {
