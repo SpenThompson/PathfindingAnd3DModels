@@ -5,7 +5,7 @@ using UnityEngine;
 public class Fear : MonoBehaviour
 {
     public int currentFear;
-    public int maxFear = 1200; // 1200 gives you 20 seconds in the dark at 60FPS
+    public int maxFear = 2700; // 2700 gives you 45 seconds in the dark at 60FPS
     private bool inDark;
 
     public FearGauge fearGauge;
