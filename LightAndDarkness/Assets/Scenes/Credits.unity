@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657826, g: 0.49641263, b: 0.57481676, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -598,25 +598,13 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Title Font:              Jonathan Harris on 1001freefonts.com
-
-    Button
-    Font:            Brittney Murph on 1001freefonts.com
-
-    Music:                       
-    Dee Yan-Key on Freemusicarchive.org
-
-    Title Background:                          
-    Art Tower on Pixaby.com
-
-    Credits Background:                                           
-    Pieter Jansz on commons.wikimedia.com
-
-    Player Model                                                                        
-    Placeholder
-
-    Brother Model                                                                    
-    Placeholder'
+  m_text: "Title Font:              Jonathan Harris on 1001freefonts.com\nButton
+    Font:            Brittney Murph on 1001freefonts.com\nMusic:                       
+    Dee Yan-Key on Freemusicarchive.org\nTitle Background:                          
+    Art Tower on Pixaby.com\nCredits Background:                                           
+    Pieter Jansz on commons.wikimedia.com\nPlayer Model                                                                        
+    Placeholder\nBrother Model                                                                    
+    Placeholder\nButton Model \t\t\t\tmess110 at Open Game Art\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 579f4e09916b9f1429402db39ab0cc01, type: 2}
   m_sharedMaterial: {fileID: 575365024105378999, guid: 579f4e09916b9f1429402db39ab0cc01, type: 2}
