@@ -109,13 +109,13 @@ public class GameManager : MonoBehaviour
     public void StartDialog(string text)
     {
         dialogBox.SetActive(true);
-        dialogCoroutine = StartCoroutine(TypeText(text));
+        //dialogCoroutine = StartCoroutine(TypeText(text));
     }
 
     public void HideDialog()
     {
         dialogBox.SetActive(false);
-        StopCoroutine(dialogCoroutine);
+        //StopCoroutine(dialogCoroutine);
 
     }
 

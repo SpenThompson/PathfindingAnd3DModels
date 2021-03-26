@@ -1028,6 +1028,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Fear Gauge
       objectReference: {fileID: 0}
+    - target: {fileID: 687266464483177163, guid: 956707d01a09851478679ae622f32de1, type: 3}
+      propertyPath: fearGauge
+      value: 
+      objectReference: {fileID: 593161822}
+    - target: {fileID: 687266464483177163, guid: 956707d01a09851478679ae622f32de1, type: 3}
+      propertyPath: playerFear
+      value: 
+      objectReference: {fileID: 857786202}
     - target: {fileID: 687266464801030776, guid: 956707d01a09851478679ae622f32de1, type: 3}
       propertyPath: m_AnchorMax.x
       value: 0
@@ -1038,6 +1046,17 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 956707d01a09851478679ae622f32de1, type: 3}
+--- !u!114 &593161822 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 687266464483177162, guid: 956707d01a09851478679ae622f32de1, type: 3}
+  m_PrefabInstance: {fileID: 593161821}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67db9e8f0e2ae9c40bc1e2b64352a6b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!224 &620778740 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 687266464483177160, guid: 956707d01a09851478679ae622f32de1, type: 3}
@@ -1382,7 +1401,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   currentFear: 0
   maxFear: 1200
-  fearGauge: {fileID: 0}
+  fearGauge: {fileID: 620778741}
 --- !u!1 &877413891
 GameObject:
   m_ObjectHideFlags: 0
